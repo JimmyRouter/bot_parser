@@ -5,10 +5,6 @@ A Python-based bot parser that collects prices from websites by parsing HTML con
 Features
 Price Parsing: Collects prices from specified websites by loading them using Selenium WebDriver.
 
-Asynchronous Execution: Handles multiple sites concurrently using asyncio.
-
-Database Management: Stores parsed sites and their data in an SQLite database.
-
 Headless Browsing: Runs the Selenium WebDriver in headless mode to avoid opening a browser window.
 
 Requirements:
@@ -83,9 +79,6 @@ logging.basicConfig(level=logging.INFO)
 ```
 By setting the logging level to INFO, you will see general logs, including info and error logs. For debugging, you can change the level to DEBUG.
 
-Async Features
-This parser uses asynchronous programming to fetch and process data concurrently. The get_prices() method is asynchronous and runs the parsing tasks for each site concurrently, which optimizes the execution time.
-
 Contributing
 If you'd like to contribute to this project, please fork the repository, create a new branch, and submit a pull request with your changes.
 
@@ -97,10 +90,6 @@ Bot Parser (Русский)
 
 Возможности
 Парсинг цен: Собирает цены с указанных сайтов, загружая их с использованием Selenium WebDriver.
-
-Асинхронное выполнение: Обрабатывает несколько сайтов одновременно с помощью asyncio.
-
-Управление базой данных: Хранит спарсенные сайты и их данные в базе данных SQLite.
 
 Работа в headless-режиме: Запускает Selenium WebDriver в headless-режиме, избегая открытия окна браузера.
 
@@ -177,9 +166,6 @@ import logging
 logging.basicConfig(level=logging.INFO)
 ```
 Установив уровень логирования на INFO, вы будете видеть общие логи, включая информацию и ошибки. Для отладки можно изменить уровень на DEBUG.
-
-Асинхронные функции
-Этот парсер использует асинхронное программирование для одновременного извлечения и обработки данных. Метод get_prices() является асинхронным и выполняет задачи парсинга для каждого сайта одновременно, что оптимизирует время выполнения.
 
 Вклад
 Если вы хотите внести свой вклад в этот проект, пожалуйста, форкните репозиторий, создайте новую ветку и отправьте pull request с вашими изменениями.
