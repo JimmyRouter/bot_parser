@@ -16,7 +16,7 @@ openpyxl
 SQLite  
 python-dotenv  
 Chrome WebDriver  
-
+Installed Chrome Browser or binary  
 Install Dependencies
 To set up the project, make sure you have all the required dependencies installed. You can do this by creating a virtual environment and installing the dependencies via pip.
 
@@ -33,7 +33,7 @@ Install required Python packages:
 If you don't have requirements.txt, you can manually install the dependencies:
 
 ```pip install aiogram selenium pandas openpyxl python-dotenv```
-You will also need to install the Chrome WebDriver. You can download it from https://googlechromelabs.github.io/chrome-for-testing/.
+You will also need to install the Chrome WebDriver and Chrome browser. You can download it from https://googlechromelabs.github.io/chrome-for-testing/.
 
 Download and install the appropriate WebDriver for your platform.
 
